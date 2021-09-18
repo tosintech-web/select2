@@ -97,5 +97,5 @@ Notice that we manually trigger the `select2:select` event and pass along the en
 You may clear all current selections in a Select2 control by setting the value of the control to `null`:
 
 ```
-$('#mySelect2').val(null).trigger('change');
+$('#mySelect2').val().trigger('change');
 ```
